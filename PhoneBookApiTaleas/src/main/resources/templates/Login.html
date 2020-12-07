@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<title>Login</title>
+<head>
+
+</head>
+<body>
+
+	<form method="Post" action="@{/login}" Object="${user}">
+		<label for="username">Username:</label><br>
+  		<input type="text" field="*{username}"><br>
+  		<label for="pwd">Password:</label><br>
+  		<input type="password" field="*{password}"><br><br>
+	</form>
+
+	<!-- jquery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</body>
+</html>

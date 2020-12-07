@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Register</title>
+</head>
+<body>
+   
+
+
+
+
+<!-- jquery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<form method="Post" action="@{/register}" Object="${user}">
+    <label for="username">Username:</label><br>
+  <input type="text" field="*{username}"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" field="*{password}"><br><br>
+  <label for="name">Name:</label><br>
+  <input type="text" field="*{name}"><br><br>
+  <label for="surname">Surname:</label><br>
+  <input type="text" field="*{surname}"><br><br>
+  <label for="number">Number:</label><br>
+  <input type="number" field="*{number}"><br><br>
+  <label for="type">Type:</label><br>
+  <input type="text" field="*{type}"><br><br>
+
+  <button type="submit">Register</button>
+
+
+
+</form>
+
+  </body>
+  </html>
